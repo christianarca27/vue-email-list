@@ -10,7 +10,11 @@
 </head>
 <body>
     <div id="app">
-        
+        <ul>
+            <li v-for="email in emailList">
+                {{ email }}
+            </li>
+        </ul>
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
